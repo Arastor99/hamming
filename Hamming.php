@@ -6,7 +6,9 @@
 
 function distancia($a, $b)
 {
-    //
-    // TU CÓDIGO VA AQUÍ
-    //
+   if(mb_strlen($a != $b)){
+	return false;
+	}
+   
+   
 }
